@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,600,300italic,400italic,500italic,700italic);
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+	background: rgb(36,103,172);
+	background: radial-gradient(circle, rgba(36,103,172,1) 0%, rgba(0,19,62,1) 100%);
+}
+
+.section1 *,
+.section1 .navbar.navbar-light .navbar-nav a.nav-link {
+	color: #ffffff;
+}
+
+.section1 .navbar.navbar-light .navbar-nav a.nav-link {
+	padding: 20px 40px;
+}
+
+.section1 .navbar.navbar-light .navbar-nav a.nav-link:hover {
+	border-bottom: 3px solid #ffffff;
+}
+
+.banner {
+	max-height: 800px;
+	overflow: hidden;
+}
+

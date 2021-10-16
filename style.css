@@ -22,8 +22,12 @@ body {
 	border-bottom: 3px solid #ffffff;
 }
 
-.banner {
+/* .banner {
+	max-height: 800px;
+	overflow: hidden;
+} */
+
+.image-max-height {
 	max-height: 800px;
 	overflow: hidden;
 }
-
